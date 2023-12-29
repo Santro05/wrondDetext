@@ -1,9 +1,20 @@
-six
-google-api-python-client>=1.6.7
-kaggle>=1.3.9
-numpy>=1.20
-oauth2client
-pandas>=0.22.0
-psutil>=5.4.3
-py-cpuinfo>=3.3.0
-scipy>=0.19.1
+# Python dependencies required for development
+astunparse
+expecttest
+hypothesis
+numpy
+psutil
+pyyaml
+requests
+setuptools
+types-dataclasses
+typing-extensions>=4.8.0
+sympy
+filelock
+networkx
+jinja2
+fsspec
+# setuptools was removed from default python install
+setuptools ; python_version >= "3.12"
+packaging
+optree>=0.9.1
